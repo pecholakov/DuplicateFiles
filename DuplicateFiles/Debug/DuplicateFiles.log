@@ -1,52 +1,52 @@
-﻿Build started 12.5.2014 г. 00:15:58 ч..
-     1>Project "c:\Users\Pete\documents\visual studio 2012\Projects\DuplicateFiles\DuplicateFiles\DuplicateFiles.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12.5.2014 г. 01:56:52 ч..
+     1>Project "D:\DuplicateFiles\DuplicateFiles\DuplicateFiles.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FilesClassificationcpp.cpp FileSystem.cpp main.cpp
          main.cpp
          FileSystem.cpp
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesystem.cpp(18): warning C4800: 'DWORD' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesystem.cpp(69): warning C4244: 'argument' : conversion from 'std::streamsize' to 'unsigned int', possible loss of data
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesystem.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesystem.cpp(18): warning C4800: 'DWORD' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\duplicatefiles\duplicatefiles\filesystem.cpp(69): warning C4244: 'argument' : conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+     1>d:\duplicatefiles\duplicatefiles\filesystem.cpp(117): warning C4018: '<' : signed/unsigned mismatch
          FilesClassificationcpp.cpp
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(45): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(50): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(50): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(243) : see declaration of '_open'
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(67): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(90): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(144): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(186): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(190): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(190): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(243) : see declaration of '_open'
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(202): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(227): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(231): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(202): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(231): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\io.h(243) : see declaration of '_open'
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(243): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\md5.h(250): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'size_t', possible loss of data
-                 c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\md5.h(242) : while compiling class template member function 'crypto::hash_t crypto::cryptohash_helper_t<algorithm>::digestfile(const std::string &)'
+     1>d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(243): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\duplicatefiles\duplicatefiles\md5.h(250): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+                 d:\duplicatefiles\duplicatefiles\md5.h(242) : while compiling class template member function 'crypto::hash_t crypto::cryptohash_helper_t<algorithm>::digestfile(const std::string &)'
                  with
                  [
                      algorithm=32771
                  ]
-                 c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\md5.h(296) : see reference to function template instantiation 'crypto::hash_t crypto::cryptohash_helper_t<algorithm>::digestfile(const std::string &)' being compiled
+                 d:\duplicatefiles\duplicatefiles\md5.h(296) : see reference to function template instantiation 'crypto::hash_t crypto::cryptohash_helper_t<algorithm>::digestfile(const std::string &)' being compiled
                  with
                  [
                      algorithm=32771
                  ]
-                 c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(60) : see reference to class template instantiation 'crypto::cryptohash_helper_t<algorithm>' being compiled
+                 d:\duplicatefiles\duplicatefiles\filesclassificationcpp.cpp(60) : see reference to class template instantiation 'crypto::cryptohash_helper_t<algorithm>' being compiled
                  with
                  [
                      algorithm=32771
                  ]
-     1>c:\users\pete\documents\visual studio 2012\projects\duplicatefiles\duplicatefiles\md5.h(264): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>d:\duplicatefiles\duplicatefiles\md5.h(264): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'size_t', possible loss of data
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\pete\documents\visual studio 2012\Projects\DuplicateFiles\Debug\DuplicateFiles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\pete\documents\visual studio 2012\Projects\DuplicateFiles\Debug\DuplicateFiles.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\pete\documents\visual studio 2012\Projects\DuplicateFiles\Debug\DuplicateFiles.lib" /MACHINE:X86 Debug\FilesClassificationcpp.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DuplicateFiles\Debug\DuplicateFiles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DuplicateFiles\Debug\DuplicateFiles.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DuplicateFiles\Debug\DuplicateFiles.lib" /MACHINE:X86 Debug\FilesClassificationcpp.obj
          Debug\FileSystem.obj
          Debug\main.obj
-         DuplicateFiles.vcxproj -> c:\users\pete\documents\visual studio 2012\Projects\DuplicateFiles\Debug\DuplicateFiles.exe
-     1>Done Building Project "c:\Users\Pete\documents\visual studio 2012\Projects\DuplicateFiles\DuplicateFiles\DuplicateFiles.vcxproj" (Build target(s)).
+         DuplicateFiles.vcxproj -> D:\DuplicateFiles\Debug\DuplicateFiles.exe
+     1>Done Building Project "D:\DuplicateFiles\DuplicateFiles\DuplicateFiles.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:08.79
+Time Elapsed 00:00:09.71
